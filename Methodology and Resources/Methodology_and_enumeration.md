@@ -196,7 +196,8 @@
   gobuster -w wordlist -u URL -r -e
   
   Directories and files :
-  gobuster -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -u 10.10.10.69 -x php,html -t 100 -s    200,204,301,302,307,403```
+  gobuster -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -u 10.10.10.69 -x php,html -t 100 -s      200,204,301,302,307,403
+  ```
 
 * Using a script to detect all phpinfo.php files in a range of IPs (CIDR can be found with a whois)
 
